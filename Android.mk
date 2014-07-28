@@ -29,6 +29,8 @@ LOCAL_CFLAGS := \
     -Wno-macro-redefined \
     -Wno-unused-function
 LOCAL_C_INCLUDES:= $(LOCAL_PATH)/include
+LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
+LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 LOCAL_SRC_FILES:= compress.c utils.c
 LOCAL_MODULE := libtinycompress
 LOCAL_SHARED_LIBRARIES:= libcutils libutils
