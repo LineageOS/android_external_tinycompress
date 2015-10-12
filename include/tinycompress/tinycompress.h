@@ -82,7 +82,9 @@ struct compr_gapless_mdata {
 struct compress;
 struct snd_compr_tstamp;
 
+#ifdef SNDRV_COMPRESS_SET_NEXT_TRACK_PARAM
 #define ENABLE_EXTENDED_COMPRESS_FORMAT
+#endif
 
 #ifdef ENABLE_EXTENDED_COMPRESS_FORMAT
 union snd_codec_options;
