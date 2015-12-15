@@ -584,8 +584,13 @@ int compress_set_next_track_param(struct compress *compress,
 		return oops(compress, errno, "cannot set next track params\n");
 	return 0;
 }
+#else
+int compress_set_next_track_param(struct compress * /*compress*/,
+    union snd_codec_options * /*codec_options*/)
+{
+    ALOGE("SNDRV_COMPRESS_SET_NEXT_TRACK_PARAM not supported!");
+}
 #endif
-
 bool is_codec_supported(unsigned int card, unsigned int device,
 		unsigned int flags, struct snd_codec *codec)
 {
