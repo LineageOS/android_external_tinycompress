@@ -22,6 +22,30 @@
       "revId": "864114ceee3ff6bb3318743bf660df7d24153e29",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "42b7a95c_4bb0f993",
+        "filename": "Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2017-09-13T13:31:23Z",
+      "side": 1,
+      "message": "I think CAF changed it because they wanted cplay to be able to use some of the added functions. We haven\u0027t merged any patches to cplay, so yeah, we wouldn\u0027t need this yet.",
+      "parentUuid": "33155319_f592b3c7",
+      "range": {
+        "startLine": 37,
+        "startChar": 44,
+        "endLine": 37,
+        "endChar": 66
+      },
+      "revId": "864114ceee3ff6bb3318743bf660df7d24153e29",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
