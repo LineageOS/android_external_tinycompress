@@ -305,6 +305,7 @@ const char *compress_get_error(struct compress *compress);
 /* utility functions */
 unsigned int compress_get_alsa_rate(unsigned int rate);
 
+#ifdef USE_VENDOR_EXTN
 /* set metadata */
 int compress_set_metadata(struct compress *compress,
 	    struct snd_compr_metadata *mdata);
@@ -312,6 +313,7 @@ int compress_set_metadata(struct compress *compress,
 /* get metadata */
 int compress_get_metadata(struct compress *compress,
 	    struct snd_compr_metadata *mdata);
+#endif
 
 #if defined(__cplusplus)
 }
