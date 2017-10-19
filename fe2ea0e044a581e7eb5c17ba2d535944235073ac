@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9d760339_f2fb2a45",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-10-19T02:33:58Z",
+      "side": 1,
+      "message": "misspell",
+      "revId": "fe2ea0e044a581e7eb5c17ba2d535944235073ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
