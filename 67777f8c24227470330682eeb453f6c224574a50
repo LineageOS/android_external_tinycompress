@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "89c33329_beea272a",
+        "filename": "Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2018-08-19T21:26:20Z",
+      "side": 1,
+      "message": "-Wall -Werror Wno-macro-redefined -Wno-unused-function",
+      "range": {
+        "startLine": 9,
+        "startChar": 16,
+        "endLine": 9,
+        "endChar": 36
+      },
+      "revId": "67777f8c24227470330682eeb453f6c224574a50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c64614ea_9a766389",
+        "filename": "Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2018-08-19T21:26:20Z",
+      "side": 1,
+      "message": "-Wall -Werror Wno-macro-redefined -Wno-unused-function",
+      "range": {
+        "startLine": 22,
+        "startChar": 16,
+        "endLine": 22,
+        "endChar": 36
+      },
+      "revId": "67777f8c24227470330682eeb453f6c224574a50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "69f70dd3_239a01c3",
+        "filename": "Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2018-08-19T21:26:20Z",
+      "side": 1,
+      "message": "-Wall -Werror Wno-macro-redefined",
+      "range": {
+        "startLine": 32,
+        "startChar": 16,
+        "endLine": 32,
+        "endChar": 36
+      },
+      "revId": "67777f8c24227470330682eeb453f6c224574a50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
