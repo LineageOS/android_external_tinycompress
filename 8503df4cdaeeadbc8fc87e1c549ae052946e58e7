@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eb260f1f_223f8715",
+        "filename": "compress.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 581,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2018-08-26T11:16:19Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_external_tinycompress/commit/5d483722ff205497a3b01f41c794f2a09da53ac5 needs porting because:\nerror: use of undeclared identifier \u0027SNDRV_COMPRESS_SET_NEXT_TRACK_PARAM\u0027",
+      "revId": "8503df4cdaeeadbc8fc87e1c549ae052946e58e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
