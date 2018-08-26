@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7003ac6a_4aa2ad6a",
+        "filename": "compress.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 590,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2018-08-26T11:38:14Z",
+      "side": 1,
+      "message": "Was missing from the first PSs but was in the message.",
+      "revId": "7befa8b609a4355ef3c1ee031d69dd776004ea57",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
