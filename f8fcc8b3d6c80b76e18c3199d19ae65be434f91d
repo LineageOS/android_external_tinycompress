@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d253587a_3754b448",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2018-09-04T07:21:01Z",
+      "side": 1,
+      "message": "This is silly, libtinycompress_vendor is exactly the same thing as libtinycompress.",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 36,
+        "endChar": 33
+      },
+      "revId": "f8fcc8b3d6c80b76e18c3199d19ae65be434f91d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
