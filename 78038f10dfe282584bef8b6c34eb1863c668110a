@@ -69,6 +69,30 @@
       "revId": "78038f10dfe282584bef8b6c34eb1863c668110a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a6011dc8_f0982377",
+        "filename": "compress.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 591,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2019-09-09T13:41:48Z",
+      "side": 1,
+      "message": "Do you have an actual example of such device existing right now?",
+      "parentUuid": "f643c84b_9d79452e",
+      "range": {
+        "startLine": 586,
+        "startChar": 0,
+        "endLine": 591,
+        "endChar": 1
+      },
+      "revId": "78038f10dfe282584bef8b6c34eb1863c668110a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
