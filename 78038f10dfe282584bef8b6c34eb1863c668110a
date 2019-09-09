@@ -22,6 +22,30 @@
       "revId": "78038f10dfe282584bef8b6c34eb1863c668110a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f643c84b_9d79452e",
+        "filename": "compress.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 591,
+      "author": {
+        "id": 18205
+      },
+      "writtenOn": "2019-09-09T13:12:03Z",
+      "side": 1,
+      "message": "This is what we did to compile audio hals that call this function but which kernels don\u0027t support SNDRV_COMPRESS_SET_NEXT_TRACK_PARAM",
+      "parentUuid": "85578839_c1afb605",
+      "range": {
+        "startLine": 586,
+        "startChar": 0,
+        "endLine": 591,
+        "endChar": 1
+      },
+      "revId": "78038f10dfe282584bef8b6c34eb1863c668110a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
