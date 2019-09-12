@@ -16,6 +16,24 @@
       "revId": "a928ed51c57d5cee46d0c90aca3f487f080b49b9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5a2f0562_14f561fb",
+        "filename": "include/tinycompress/tinycompress.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2019-09-12T19:00:38Z",
+      "side": 1,
+      "message": "In that case, we\u0027ll need to stub out compress_set_next_track_param ... that one needs to be defined in either cade though.",
+      "parentUuid": "cd681f1a_9fa9152e",
+      "revId": "a928ed51c57d5cee46d0c90aca3f487f080b49b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
