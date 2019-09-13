@@ -52,6 +52,24 @@
       "revId": "a928ed51c57d5cee46d0c90aca3f487f080b49b9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aaafff0_e6a4f5ad",
+        "filename": "include/tinycompress/tinycompress.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2019-09-13T06:22:44Z",
+      "side": 1,
+      "message": "To make it compile ;-)\n\nIn short:\n- (at least msm8916) audio HAL needs the symbol compress_set_next_track_param unconditionally\n- if SNDRV_COMPRESS_SET_NEXT_TRACK_PARAM isn\u0027t defined, the current impl won\u0027t compile\n- so it looks like we need a stub for that function if it\u0027s not defined, and the full impl if it\u0027s defined\n\nAFAICT this is exactly how this function behaved in 16.0 and earlier, where the ENABLE_EXTENDED_COMPRESS_FORMAT didn\u0027t exist.",
+      "parentUuid": "6191b874_fe734f38",
+      "revId": "a928ed51c57d5cee46d0c90aca3f487f080b49b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
