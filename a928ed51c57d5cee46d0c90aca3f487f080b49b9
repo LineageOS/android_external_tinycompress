@@ -88,6 +88,24 @@
       "revId": "a928ed51c57d5cee46d0c90aca3f487f080b49b9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1216b036_ede9210c",
+        "filename": "include/tinycompress/tinycompress.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2019-09-13T08:19:09Z",
+      "side": 1,
+      "message": "That pick doesn\u0027t solve the necessity of this change for the 8916 audio HAL, which requires compress_set_next_track_param to be defined, as mentioned earlier.",
+      "parentUuid": "ae141236_07c12f86",
+      "revId": "a928ed51c57d5cee46d0c90aca3f487f080b49b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
