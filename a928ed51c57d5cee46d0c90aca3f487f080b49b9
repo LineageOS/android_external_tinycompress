@@ -70,6 +70,24 @@
       "revId": "a928ed51c57d5cee46d0c90aca3f487f080b49b9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ae141236_07c12f86",
+        "filename": "include/tinycompress/tinycompress.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 18205
+      },
+      "writtenOn": "2019-09-13T07:35:17Z",
+      "side": 1,
+      "message": "Mike earlier suggested this caf pick https://review.lineageos.org/c/LineageOS/android_kernel_lge_msm8974/+/256787\nAnd it does \"work\" without hassle",
+      "parentUuid": "7aaafff0_e6a4f5ad",
+      "revId": "a928ed51c57d5cee46d0c90aca3f487f080b49b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
