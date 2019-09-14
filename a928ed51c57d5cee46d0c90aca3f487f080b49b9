@@ -106,6 +106,24 @@
       "revId": "a928ed51c57d5cee46d0c90aca3f487f080b49b9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "540a011f_294d2b18",
+        "filename": "include/tinycompress/tinycompress.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 18205
+      },
+      "writtenOn": "2019-09-14T12:22:53Z",
+      "side": 1,
+      "message": "This commit exposes the function, and the commit i linked will make it actually compile",
+      "parentUuid": "1216b036_ede9210c",
+      "revId": "a928ed51c57d5cee46d0c90aca3f487f080b49b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
