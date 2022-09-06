@@ -383,17 +383,18 @@ static int compress_plug_open(unsigned int card, unsigned int device,
 	strlcat(open_fn, "_open", open_fn_size);
 
 	plug_data->plugin_open_fn = dlsym(dl_hdl, open_fn);
+	free(open_fn);
 	if (!plug_data->plugin_open_fn) {
 		fprintf(stderr, "%s: dlsym to open fn failed, err = '%s'\n",
 				__func__, dlerror());
-		goto err_dlsym;
+		goto err_open_fn;
 	}
 
 	rc = plug_data->plugin_open_fn(&plug_data->plugin,
 					card, device, flags);
 	if (rc) {
 		fprintf(stderr, "%s: failed to open plugin\n", __func__);
-		goto err_dlsym;
+		goto err_open_fn;
 	}
 
 	/* Call snd-card-def to get card and compress nodes */
@@ -411,8 +412,6 @@ static int compress_plug_open(unsigned int card, unsigned int device,
 
 	return 0;
 
-err_dlsym:
-	free(open_fn);
 err_open_fn:
 	dlclose(dl_hdl);
 err_get_lib:
