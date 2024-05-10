@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "834cd95d_cbda54d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33487
+      },
+      "writtenOn": "2024-05-10T20:28:29Z",
+      "side": 1,
+      "message": "This fixes for some case in prebuilt kernel",
+      "revId": "21cf78d4cc510b4d8c73de41750775d59fa58528",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
