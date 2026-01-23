@@ -623,7 +623,7 @@ int compress_set_codec_params(struct compress *compress,
 	struct snd_codec *codec) {
 	struct snd_compr_params params;
 
-	if (!is_compress_ready(compress) || !compress->next_track)
+	if (!is_compress_ready(compress) && !compress->next_track)
 		return oops(compress, ENODEV, "device not ready");
 
 	params.buffer.fragment_size = compress->config->fragment_size;
