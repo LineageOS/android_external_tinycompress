@@ -256,6 +256,12 @@ struct compress *compress_open(unsigned int card, unsigned int device,
 		goto codec_fail;
 	}
 
+	compress->config->codec = calloc(1, sizeof(*compress->config->codec));
+	if (!compress->config->codec){
+		oops(&bad_compress, errno, "cannot allocate memory");
+		goto codec_fail;
+	}
+
 	return compress;
 
 codec_fail:
@@ -278,6 +284,7 @@ void compress_close(struct compress *compress)
 	compress->ops->close(compress->data);
 	compress->running = 0;
 	compress->fd = -1;
+	free(compress->config->codec);
 	free(compress->config);
 	free(compress);
 }
@@ -623,13 +630,13 @@ int compress_set_codec_params(struct compress *compress,
 	struct snd_codec *codec) {
 	struct snd_compr_params params;
 
-	if (!is_compress_ready(compress) || !compress->next_track)
+	if (!is_compress_ready(compress) && !compress->next_track)
 		return oops(compress, ENODEV, "device not ready");
 
 	params.buffer.fragment_size = compress->config->fragment_size;
 	params.buffer.fragments = compress->config->fragments;
 	memcpy(&params.codec, codec, sizeof(params.codec));
-	memcpy(&compress->config->codec, codec, sizeof(struct snd_codec));
+	memcpy(compress->config->codec, codec, sizeof(struct snd_codec));
 
 	if (compress->ops->ioctl(compress->data, SNDRV_COMPRESS_SET_PARAMS, &params))
 		return oops(compress, errno, "cannot set device");
